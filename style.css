@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: black;
+    height: 100vh;
+    width: 340px;
+    border-radius: 1rem;
+}
+
+.nav {
+    font-size: 1.2rem;
+    background-color: #121212;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3rem;
+    height: 150px;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-options i {
+    font-size: 1rem;
+}
+
+.nav-options a {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.nav-options {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.nav-options:hover {
+    opacity: 1;
+}
+
+.playbar {
+    background-color: #000;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+}
+
+.library {
+    font-size: 1.2rem;
+    background-color: #121212;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
+    line-height: 3rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lib-options {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.lib-options:hover {
+    opacity: 1;
+}
+
+.lib-options img {
+    height: 1rem;
+}
+
+.icons{
+    font-size: 1rem;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.icons:hover {
+    opacity: 1;
+}
+
+.box {
+    line-height: 1rem;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box-p2 {
+    font-size: 0.8rem;
+}
+
+.badge {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0.8rem;
+}
+
+.box .badge:hover {
+    transform: scale(1.05);
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin: 0.5rem;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.sticky-nav .nav-left img {
+    width: 1.15rem;
+}
+
+.nav-left img{
+    opacity: 0.6;
+}
+
+.nav-left img:hover{
+    opacity: 1;
+}
+
+.nav-right .nav-right-icons {
+    margin: 1px;
+    transition: 0.2s;
+}
+
+.nav-right .nav-right-icons:hover{
+    transform: scale(1.05);
+}
+
+h2 {
+    padding-left: 1rem;
+}
+
+.cards {
+    background-color: #121212;
+    height: 280px;
+    width: 190px;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.cards:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.cards .card-img {
+    width: 170px;
+    margin-top: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.cards .card-content {
+    align-self: flex-start;
+    margin-left: 0.75rem;
+}
+
+.cards .card-content .card-p1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cards .card-content .card-p2 {
+    font-size: 0.8rem;
+}
+
+.recommended-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 90%;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    font-size: 0.8rem;
+}
+
+.footer .links a {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.footer .links a:hover {
+    opacity: 1;
+}
