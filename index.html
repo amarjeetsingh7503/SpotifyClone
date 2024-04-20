@@ -172,7 +172,33 @@
                 <div class="copyright">&copy;2024 Spotify AB</div>
             </footer>
         </div>
-        <div class="playbar"></div>
+        <div class="playbar">
+            <div class="album">
+                <img src="assests/card2img.jpeg" alt="song">
+                <div class="song-description">
+                    <p class="desc-one">Mahiye</p>
+                    <p class="desc-two">Zee Originals</p>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="assests/player_icon1.png" class="player-control-icon">
+                    <img src="assests/player_icon2.png" class="player-control-icon">
+                    <img src="assests/player_icon3.png" class="player-control-icon play-button">
+                    <img src="assests/player_icon4.png" class="player-control-icon">
+                    <img src="assests/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" value="0" step="1" class="progress-bar">
+                    <span class="tot-time">5:00</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" value="20" step="1" class="volume">
+            </div>
+        </div>
     </div>
 </body>
 </html>
