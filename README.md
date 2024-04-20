@@ -1,2 +1,2 @@
 # SpotifyClone
-Made Spotify Clone Using HTML and CSS
+Made Spotify Web Clone Using HTML and CSS
